@@ -313,14 +313,12 @@ button:focus,
   from {
     -webkit-transform: translate(0, 50px) ;
             transform: translate(0, 50px) ;
-  } 
-
+  }
   to {
     -webkit-transform: translate(200px, 50px) ;
             transform: translate(200px, 50px) ;
   }
 }
-
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
           animation: 30s cloud-move infinite alternate linear;
