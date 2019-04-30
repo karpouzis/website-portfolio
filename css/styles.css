@@ -77,7 +77,8 @@ a:visited {
   color: var(--visited-link);
 }
 
-a:hover , a:focus {
+a:hover,
+a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
 }
@@ -87,7 +88,8 @@ a:active {
   color: var(--selected-link);
 }
 
-.button , button {
+.button,
+button {
   /* overwrites browser defaults and resets the border */
   border: none;
 
@@ -186,7 +188,7 @@ button:focus,
 }
 
 .content-details {
-  margin: 10px 0px 10px 0px;
+  margin: 10px;
 }
 
 .links-header {

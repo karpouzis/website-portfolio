@@ -50,7 +50,8 @@ a:visited {
   color: #05676e;
 }
 
-a:hover , a:focus {
+a:hover,
+a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
 }
@@ -78,9 +79,9 @@ a:active {
 
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0,2s opacity;
-  -o-transition: 0,2s opacity;
-  transition: 0,2s opacity;
+  -webkit-transition: 0, 2s opacity;
+  -o-transition: 0, 2s opacity;
+  transition: 0, 2s opacity;
 }
 
 button {
@@ -154,7 +155,7 @@ button:focus,
   position: absolute;
   left: 20%;
   text-align: center;
-  list-style-type: none;  
+  list-style-type: none;
 }
 
 .top-header {
@@ -197,7 +198,7 @@ button:focus,
 }
 
 .content-details {
-  margin: 10px 0px 10px 0px;
+  margin: 10px;
 }
 
 .links-header {
@@ -305,45 +306,53 @@ button:focus,
   }
 
   to {
-    -webkit-transform: translate(200px, 50px) ;
-    transform: translate(200px, 50px) ;
+    -webkit-transform: translate(200px, 50px);
+    transform: translate(200px, 50px);
   }
+}
 
 @keyframes cloud-move {
   from {
-    -webkit-transform: translate(0, 50px) ;
-            transform: translate(0, 50px) ;
+    -webkit-transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
+
   to {
-    -webkit-transform: translate(200px, 50px) ;
-            transform: translate(200px, 50px) ;
+    -webkit-transform: translate(200px, 50px);
+    transform: translate(200px, 50px);
   }
 }
+
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
-          animation: 30s cloud-move infinite alternate linear;
-} 
+  animation: 30s cloud-move infinite alternate linear;
+}
+
 @-webkit-keyframes cloud-move-reverse {
   from {
-    -webkit-transform: translate(446px, 48px) ;
-            transform: translate(446px, 48px) ;
+    -webkit-transform: translate(446px, 48px);
+    transform: translate(446px, 48px);
   }
+
   to {
-    -webkit-transform: translate(100px, 48px) ;
-            transform: translate(100px, 48px) ;
-  }
-} 
-@keyframes cloud-move-reverse {
-  from {
-    -webkit-transform: translate(446px, 48px) ;
-            transform: translate(446px, 48px) ;
-  }
-  to {
-    -webkit-transform: translate(100px, 48px) ;
-            transform: translate(100px, 48px) ;
+    -webkit-transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
+
+@keyframes cloud-move-reverse {
+  from {
+    -webkit-transform: translate(446px, 48px);
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    -webkit-transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
+  }
+}
+
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
-          animation: 34s cloud-move-reverse infinite alternate linear;
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
