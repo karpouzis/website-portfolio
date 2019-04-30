@@ -105,7 +105,7 @@ a:active {
 
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  transition: 0, 2s opacity; 
+  transition: 0, 2s opacity;
 }
 
 button:hover,
@@ -151,7 +151,7 @@ button:focus,
   position: absolute;
   left: 20%;
   text-align: var(--primary-text-align);
-  list-style-type: var(--primary-list-style-type);  
+  list-style-type: var(--primary-list-style-type);
 }
 
 .top-header {
@@ -186,7 +186,7 @@ button:focus,
 }
 
 .content-details {
-    margin: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 .links-header {
@@ -245,7 +245,7 @@ button:focus,
   h1 {
     font-size: 22px;
   }
-} 
+}
 
 @keyframes color-change {
   0% {
